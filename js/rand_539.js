@@ -2,7 +2,7 @@ function rand(max) {
   return Math.floor(Math.random() * max)+1;
 }
 
-let num = 39
+let num = 39;
 function roll() {
 let arr = [];
 let random = rand(num);
