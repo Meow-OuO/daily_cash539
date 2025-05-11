@@ -13,5 +13,5 @@ function roll() {
     }
   }
 
-  document.getElementById("lotto539").innerHTML = '開獎號碼: ' + "&nbsp;" + arr.sort(function(a, b){ return a - b; });
+  document.getElementById("lotto539").innerHTML = '開獎號碼:' + "&nbsp;" + arr.sort(function(a, b){ return a - b; });
 }
